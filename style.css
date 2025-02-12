@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo preto */
+    color: #f8f0f6; /* Cor de texto claro para contraste */
+}
+
+header {
+    background-color: #ff77a7; /* Rosa claro para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery, .videos {
+    margin: 20px 0;
+}
+
+.gallery h2, .videos h2 {
+    color: #ff77a7; /* Rosa claro para títulos da galeria */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 10px;
+}
+
+.item {
+    overflow: hidden;
+    border: 2px solid #ff77a7; /* Bordas rosa claro */
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-container iframe {
+    width: 48%;
+    height: 200px;
+    border: 2px solid #ff77a7; /* Bordas rosa claro */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff77a7; /* Rosa claro para o rodapé */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
